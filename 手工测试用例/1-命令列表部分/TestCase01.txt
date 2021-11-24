@@ -1,0 +1,8 @@
+A "world"
+a "Hello "
+s
+D 2
+d 7
+D 5
+A "Hi world"
+d 30

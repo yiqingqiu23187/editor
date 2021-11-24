@@ -1,0 +1,6 @@
+lang eng
+content xml
+a "<This><is>Et what is your</is><label>point of view</label></This>"
+spell
+lang fra
+spell

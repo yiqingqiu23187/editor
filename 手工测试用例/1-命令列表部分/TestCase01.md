@@ -1,0 +1,32 @@
+- Input:
+  - A "world"
+- Output:
+  - world
+- Input:
+  - a "Hello "
+- Output:
+  - Hello world
+- Input:
+  - s
+- Output:
+  - Hello world
+- Input:
+  - D 2
+- Output:
+  - Hello wor
+- Input:
+  - d 7
+- Output:
+  - or
+- Input:
+  - D 5
+- Output:
+  - 
+- Input:
+  - A "Hi world"
+- Output:
+  - Hi world
+- Input:
+  - d 30
+- Output:
+  - 

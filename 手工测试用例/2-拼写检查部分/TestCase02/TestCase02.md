@@ -1,0 +1,22 @@
+- Input:
+  - lang eng
+- Input:
+  - content xml
+- Input:
+  - a "<This><is>Et what is your</is><label>point of view</label></This>"
+- Output:
+  - <This><is>Et what is your</is><label>point of view</label></This>
+- Input:
+  - spell
+- Output:
+  - Et
+- Input:
+  - lang fra
+- Input:
+  - spell
+- Output:
+  - what
+  - is
+  - your
+  - of
+  - view

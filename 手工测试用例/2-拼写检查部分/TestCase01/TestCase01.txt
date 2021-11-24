@@ -1,0 +1,16 @@
+A "Quel est votre point de vue"
+a "What is your point of view, and, "
+content txt
+lang eng
+spell
+lang fra
+spell
+m 2 twoStep
+$twoStep
+spell
+lang eng
+spell
+u
+s
+d 3
+spell

@@ -1,0 +1,96 @@
+- 运行程序时附上参数 -t "To be or not to be"
+- Input:
+  - s
+- Output:
+  - To be or not to be
+- Input:
+  - A ", it is"
+- Output:
+  - To be or not to be, it is
+- Input:
+  - l 1
+- Output:
+  - 1 A ", it is"
+- Input:
+  - l 5
+- Output:
+  - 1 A ", it is"
+- Input:
+  - a "No. "
+- Output:
+  - No. To be or not to be, it is
+- Input:
+  - m 2 ADD
+- Input:
+  - u
+- Input:
+  - s
+- Output:
+  - To be or not to be, it is
+- Input:
+  - u
+- Input:
+  - s
+- Output:
+  - To be or not to be
+- Input:
+  - u
+- Input:
+  - s
+- Output:
+  - To be or not to be
+- Input:
+  - r
+- Input:
+  - s
+- Output:
+  - To be or not to be, it is
+- Input:
+  - r
+- Input:
+  - s
+- Output:
+  - No. To be or not to be, it is
+- Input:
+  - r
+- Input:
+  - s
+- Output:
+  - No. To be or not to be, it is
+- Input:
+  - l 2
+- Output:
+  - 1 a "No. "
+  - 2 A ", it is"
+- Input:
+  - l 10
+- Output:
+  - 1 a "No. "
+  - 2 A ", it is"
+- Input:
+  - r
+- Input:
+  - s
+- Output:
+  - No. To be or not to be, it is
+- Input:
+  - $ADD
+- Output:
+  - No. No. To be or not to be, it is, it is
+- Input:
+  - u
+- Input:
+  - s
+- Output:
+  - No. To be or not to be, it is
+- Input:
+  - r
+- Input:
+  - s
+- Output:
+  - No. No. To be or not to be, it is, it is
+- Input:
+  - l 2
+- Output:
+  - 1 $ADD
+  - 2 a "No. "

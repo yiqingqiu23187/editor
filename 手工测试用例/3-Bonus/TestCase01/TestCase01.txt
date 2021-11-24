@@ -1,0 +1,47 @@
+a "The quick brown fox jumps over the lazy dog"
+content txt
+lang eng
+s
+D 2
+A "ag"
+spell-a
+s
+spell-m
+s
+u
+s
+r
+s
+r
+s
+D 100
+content xml
+a "<e><t>title</t><d>The quick brown fox jumps over the lazy dag</d></e>"
+spell-a
+s
+spell-m
+D 200
+content txt
+lang fra
+a "The quick brown fox jumps over the lazy dog"
+spell-a
+s
+D 100
+a "Portez ce vieux whisky au juge blond qui fume"
+D 2
+A "ma"
+spell-a
+s
+spell-m
+s
+u
+s
+r
+s
+D 100
+content xml
+a "<e><t>titre</t><d>Portez ce vieux whisky au juge blond qui fuma</d></e>"
+spell-a
+s
+spell-m
+s

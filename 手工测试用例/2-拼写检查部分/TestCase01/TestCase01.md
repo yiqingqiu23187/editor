@@ -1,0 +1,86 @@
+- Input:
+  - A "Quel est votre point de vue"
+- Output:
+  - Quel est votre point de vue
+- Input:
+  - a "What is your point of view, and, "
+- Output:
+  - What is your point of view, and, Quel est votre point de vue
+- Input:
+  - content txt
+- Input:
+  - lang eng
+- Input:
+  - spell
+- Output:
+  - Quel
+  - est
+  - votre
+  - de
+  - vue
+- Input:
+  - lang fra
+- Input:
+  - spell
+- Output:
+  - What
+  - is
+  - your
+  - of
+  - view
+  - and
+- Input:
+  - m 2 twoStep
+- Input:
+  - $twoStep
+- Output:
+  - What is your point of view, and, What is your point of view, and, Quel est votre point de vueQuel est votre point de vue
+- Input:
+  - spell
+- Output:
+  - What
+  - is
+  - your
+  - of
+  - view
+  - and
+  - What
+  - is
+  - your
+  - of
+  - view
+  - and
+  - vueQuel
+- Input:
+  - lang eng
+- Input:
+  - spell
+- Output:
+  - Quel
+  - est
+  - votre
+  - de
+  - vueQuel
+  - est
+  - votre
+  - de
+  - vue
+- Input:
+  - u
+- Input:
+  - s
+- Output:
+  - What is your point of view, and, Quel est votre point de vue
+- Input:
+  - d 3
+- Output:
+  - t is your point of view, and, Quel est votre point de vue
+- Input:
+  - spell
+- Output:
+  - t
+  - Quel
+  - est
+  - votre
+  - de
+  - vue

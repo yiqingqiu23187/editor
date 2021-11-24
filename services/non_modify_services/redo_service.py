@@ -1,6 +1,6 @@
 from services.base_service import BaseService
 from common.constant.category import Category
-import services.undo_service
+import services.non_modify_services.undo_service
 
 class RedoService(BaseService):
     redo_list = []
@@ -14,9 +14,12 @@ class RedoService(BaseService):
         return Category.non_modify
 
     def process(self, data):  # type: (str) -> None
+        if not self.redo_list:
+            # print(self.file.content)
+            return
         service = RedoService.redo_list.pop()
         service.redo()
-        services.undo_service.UndoService.add(service)
+        services.non_modify_services.undo_service.UndoService.add(service)
 
     @classmethod
     def add(self, service):

@@ -14,11 +14,13 @@ class ListService(BaseService):
         return Category.non_modify
 
     def process(self, data):  # type: (str) -> None
+        # print('operate_list')
+        # print(ListService.operate_list)
         data = data.split()
         if len(data) < 2:
             raise Exception('参数格式错误，参考：l 5')
         for i, operator in enumerate(ListService.operate_list[::-1]):
-            if i + 1 == int(data[1]):
+            if i == int(data[1]):
                 break
             print((i + 1, operator))
 
