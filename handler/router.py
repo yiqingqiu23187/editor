@@ -3,9 +3,9 @@ import inspect
 import pkgutil
 import services as target_services
 from services.base_service import BaseService
-from common.utils.singleton import singleton
+from common.utils.singleton import singleton_wrapper
 
-@singleton
+@singleton_wrapper
 class Router(object):
 
     def __init__(self):

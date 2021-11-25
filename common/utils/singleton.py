@@ -1,4 +1,4 @@
-def singleton(cls, *args, **kwargs):
+def singleton_wrapper(cls, *args, **kwargs):
     instances = {}
 
     def _singleton():

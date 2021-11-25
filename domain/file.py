@@ -1,8 +1,8 @@
-from common.utils.singleton import singleton
+from common.utils.singleton import singleton_wrapper
 from common.constant.file import LanguageType, FormatType
 
 
-@singleton
+@singleton_wrapper
 class File(object):
     def __init__(self):
         self.content = ''
