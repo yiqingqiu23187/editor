@@ -4,6 +4,8 @@ By Huang Zihao 18302010034
 
 ### 程序结构
 
+程序图：https://bytedance.feishu.cn/docx/doxcnggJcKeAh5ZtxCJZybTSVdh
+
 ![image-20211125164944642](/Users/admin/Library/Application Support/typora-user-images/image-20211125164944642.png)
 
 *Everything is object.* 在我的设计中，不仅具体的file是对象，连路由模块Router、ServiceRegister和每条指令都是一个对象。
