@@ -1,0 +1,6 @@
+['Quel', 'est', 'votre', 'de', 'vue']
+['What', 'is', 'your', 'of', 'view', 'and']
+['What', 'is', 'your', 'of', 'view', 'and', 'What', 'is', 'your', 'of', 'view', 'and', 'vueQuel']
+['Quel', 'est', 'votre', 'de', 'vueQuel', 'est', 'votre', 'de', 'vue']
+What is your point of view, and, Quel est votre point de vue
+['t', 'Quel', 'est', 'votre', 'de', 'vue']

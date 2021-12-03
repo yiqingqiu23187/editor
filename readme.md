@@ -35,7 +35,12 @@ Route根据指令的开头判断调用BaseService的哪个实例。
 
 宏命令的实现刚开始着实令我费了一些脑筋，因为ServiceRegister通常都是程序初始化的时候主动的去获取所有的服务指令的，如何在程序运行中动态地添加新的指令呢？我的解决方案是：不是ServiceRegister定时地去“拉取”所有服务指令，而是把ServiceRegister设置成观察者，每当服务指令更新时去通知ServiceRegister。
 
-### why python not java
+### 我的设计模式的优点
+
+1. 便于扩展，这是最大的优点。当新增指令时，只需要在service模块下新增一个service子类，实现它的5个接口（每一个的实现都很简单，只需要关注指令本身实现功能！）
+2. 便于理解，任何看过代码的人能很快捷地理解这个项目
+
+### Why Python Not Java?
 
 python和java都是面向对象的语言，通过我的程序结构图可以很清楚的发现在我的程序中oop的思想无处不在：
 
@@ -45,3 +50,9 @@ python和java都是面向对象的语言，通过我的程序结构图可以很�
 而选择python的原因是因为python中使用装饰器和反射非常方便：可以通过注解的形式方便地引用一个装饰器，可以通过module模块相关api方便地实现ServiceRegister。
 
 所以我选择python，这可以很好地实现我的程序结构，体现oop的思想，并且python有着方便的装饰器和反射。
+
+### For TA: How To Test?
+
+![image-20211203205730798](/Users/admin/Library/Application Support/typora-user-images/image-20211203205730798.png)
+
+运行项目根目录下的test.py文件即可自动测试给出的5个测试用例，如果要测试新的测试用例，只需要替换掉测试的文本即可
