@@ -1,4 +1,7 @@
 The quick brown fox jumps over the lazy dog
+The quick brown fox jumps over the lazy dog
+The quick brown fox jumps over the lazy d
+The quick brown fox jumps over the lazy dag
 *[The] *[quick] *[brown] *[fox] *[jumps] *[over] *[the] *[lazy] *[dag]
 The quick brown fox jumps over the lazy dag
         
@@ -6,17 +9,29 @@ The quick brown fox jumps over the lazy dag
         
         ag
         ag
+        ag
+
+<e><t>title</t><d>The quick brown fox jumps over the lazy dag</d></e>
 <*[*[e]]><*[*[t]]>*[*[t]]i*[*[t]]l*[*[e]]</*[*[t]]><*[*[d]]>Th*[*[e]] *[quick] *[brown] *[fox] *[jumps] ov*[*[e]]r *[*[t]]h*[*[e]] *[lazy] *[*[d]]ag</*[*[d]]></*[*[e]]>
 <e><t>title</t><d>The quick brown fox jumps over the lazy dag</d></e>
 <><>il</><>Th     ovr h  ag</></>
+
+The quick brown fox jumps over the lazy dog
 *[The] *[quick] *[brown] *[fox] *[jumps] *[over] *[the] *[lazy] *[dog]
 The quick brown fox jumps over the lazy dog
+
+Portez ce vieux whisky au juge blond qui fume
+Portez ce vieux whisky au juge blond qui fu
+Portez ce vieux whisky au juge blond qui fuma
 *[Portez] *[ce] *[vieux] *[whisky] *[au] *[juge] *[blond] *[qui] *[fuma]
 Portez ce vieux whisky au juge blond qui fuma
         
         
         
         ma
+        ma
+
+<e><t>titre</t><d>Portez ce vieux whisky au juge blond qui fuma</d></e>
 <*[*[e]]><*[*[t]]>*[*[t]]i*[*[t]]r*[*[e]]</*[*[t]]><*[*[d]]>Por*[*[t]]*[*[e]]z c*[*[e]] vi*[*[e]]ux *[whisky] *[au] jug*[*[e]] blon*[*[d]] *[qui] *[fuma]</*[*[d]]></*[*[e]]>
 <e><t>titre</t><d>Portez ce vieux whisky au juge blond qui fuma</d></e>
 <><>ir</><>Porz c viux   jug blon  </></>

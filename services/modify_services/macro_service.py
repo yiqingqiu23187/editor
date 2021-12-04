@@ -36,6 +36,7 @@ class MacroService(BaseService):
                 self.data = data
                 for operator in MacroGenService.code_operator_map[data]:
                     operator.redo()
+                print(self.file.content)
 
             def undo(self):
                 for operator in MacroGenService.code_operator_map[self.data][::-1]:

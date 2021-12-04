@@ -1,0 +1,23 @@
+a "What is your point "
+A "of view"
+s
+D 5
+u
+s
+r
+s
+u
+s
+d 5
+u
+s
+l 10
+s
+m 2 m2
+s
+$m2
+lang eng
+content txt
+spell
+spell-a
+spell-m

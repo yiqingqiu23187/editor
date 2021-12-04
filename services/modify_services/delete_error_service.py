@@ -33,5 +33,5 @@ class DeleteErrorService(BaseService):
             if word not in dictionary:
                 error_sentence = error_sentence.replace(word, '')
         self.file.content = error_sentence
-        print(error_sentence)
+        print(self.file.content)
 

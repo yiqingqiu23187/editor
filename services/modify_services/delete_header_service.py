@@ -15,6 +15,7 @@ class DeleteHeaderService(BaseService):
         self.delete_len = int(data[1])
         self.data = self.file.content[0: self.delete_len]
         self.file.content = self.file.content[self.delete_len:]
+        print(self.file.content)
 
     def undo(self):
         self.file.content = self.data + self.file.content

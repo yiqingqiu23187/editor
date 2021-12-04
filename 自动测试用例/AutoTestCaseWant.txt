@@ -1,0 +1,22 @@
+What is your point 
+What is your point of view
+What is your point of view
+What is your point of
+What is your point of view
+What is your point of
+What is your point of
+What is your point of view
+is your point of view
+What is your point of view
+(1, 'd 5')
+(2, 'D 5')
+(3, 'A "of view"')
+(4, 'a "What is your point "')
+What is your point of view
+What is your point of view
+What is your point What is your point of view
+What is your point What is your point of viewof view
+What is your point What is your point of viewof view
+['viewof']
+What is your point What is your point of *[viewof] view
+What is your point What is your point of  view

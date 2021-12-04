@@ -15,6 +15,7 @@ class AppendHeaderService(BaseService):
             raise Exception('参数格式错误')
         self.data = data[1]
         self.file.content = self.data + self.file.content
+        print(self.file.content)
 
     def undo(self):
         self.file.content = self.file.content.removeprefix(self.data)

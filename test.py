@@ -36,10 +36,12 @@ def auto_test(input_file, output_file, std_answer):
 
 
 if __name__ == "__main__":
-    # 这5个auto_test分别自动测试5个给出的测试用例，取消和加上对应的注释语句即可
-    auto_test('手工测试用例/1-命令列表部分/TestCase01.txt', '手工测试用例/1-命令列表部分/TestCase01Output.txt',
-              '手工测试用例/1-命令列表部分/TestCase01Want.txt')
-    # auto_test('手工测试用例/1-命令列表部分/TestCase02.txt', '手工测试用例/1-命令列表部分/TestCase01Want.txt',
+    # 这6个auto_test分别对应 1个自动测试用例 和 5个手工测试用例，取消和加上对应的注释语句即可
+    auto_test('自动测试用例/AutoTestCase.txt', '自动测试用例/AutoTestCaseOutput.txt', '自动测试用例/AutoTestCaseWant.txt')
+
+    # auto_test('手工测试用例/1-命令列表部分/TestCase01.txt', '手工测试用例/1-命令列表部分/TestCase01Output.txt',
+    #           '手工测试用例/1-命令列表部分/TestCase01Want.txt')
+    # auto_test('手工测试用例/1-命令列表部分/TestCase02.txt', '手工测试用例/1-命令列表部分/TestCase02Output.txt',
     #           "手工测试用例/1-命令列表部分/TestCase02Want.txt")
     # auto_test('手工测试用例/2-拼写检查部分/TestCase01/TestCase01.txt', "手工测试用例/2-拼写检查部分/TestCase01/TestCase01Output.txt",
     #           "手工测试用例/2-拼写检查部分/TestCase01/TestCase01Want.txt")
